@@ -1,0 +1,32 @@
+body{
+background-color: black;
+  background-image: url('http://unsplash.com/photos/Y_pLBbSAhHI/download?force=true');
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+form {
+    background: #e7e7e7;
+    font-family: 'Lato', sans-serif;
+    margin: 50px auto;
+    max-width: 650px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    line-height: 2;
+    border-radius: 2%;
+    font-size: 18px;
+    text-align: center;
+    opacity: .8;
+}
+
+form input {
+    line-height: normal;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+}

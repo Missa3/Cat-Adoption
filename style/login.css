@@ -1,16 +1,15 @@
-body{
-background-color: black;
-  background-image: url('http://unsplash.com/photos/npCECWX6-d0/download?force=true');
-background-size: cover;
-background-repeat: no-repeat;
-
-
+body {
+    background-color: black;
+    background-image: url('http://unsplash.com/photos/npCECWX6-d0/download?force=true');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 form {
     background: #e7e7e7;
     font-family: 'Lato', sans-serif;
-    margin: 50px auto;
-    max-width: 650px;
+    margin: 10px auto;
+    max-width: 500px;
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
@@ -21,13 +20,13 @@ form {
     opacity: .8;
 }
 
-label{
-  display: block;
+label {
+    display: block;
 }
+
 form input {
     line-height: normal;
 }
-
 
 .btn {
     display: block;

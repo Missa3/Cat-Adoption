@@ -5,6 +5,10 @@ body {
     background-repeat: no-repeat;
 }
 
+h1, h2, h3 {
+    color: #328aca;
+}
+
 form {
     background: #e7e7e7;
     font-family: 'Lato', sans-serif;
@@ -13,15 +17,21 @@ form {
     width: 100%;
     box-sizing: border-box;
     padding: 50px;
-    line-height: 2;
     border-radius: 2%;
     font-size: 18px;
     text-align: center;
     opacity: .8;
 }
 
-form input {
-    line-height: normal;
+.map {
+    margin: auto;
+    text-align: center;
+}
+
+form .message input {
+    height: 200px;
+    display: block;
+    width: 400px;
 }
 
 .btn {
@@ -29,3 +39,5 @@ form input {
     margin: auto;
     border-radius: 10%;
 }
+
+.
